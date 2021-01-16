@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html,body 
+{
+	
+	background:#EEE;
+	font-family: "Ubuntu", sans-serif;
+	margin:0px;
+	padding:0px;
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	
+	margin:0px;
+	padding:0px;
+
+}
+
+nav 
+{
+	
+	background:#333;
+	padding:40px 40px;
+	min-height:20px;
+
+}
+
+nav h4
+{
+	
+	float:left;
+	color:#BFC1C3;
+	letter-spacing:2px;
+	transition: ease .5s all;
+	text-transform: uppercase;
+
+}
+
+nav h4:hover 
+{
+	
+	letter-spacing: 1.5px;
+
+}
+
+nav a.link
+{
+	
+	float:right;
+	color:#EEE;
+	text-decoration:none;
+	transition: ease .5s all;
+	margin-right:25px;
+
+}
+
+nav a.link:hover
+{
+	
+	color:#FFF;
+	box-shadow:0px 0.25px 7px #3330;
+
+}
+
+main 
+{
+	
+	width:75%;
+	margin-left:12.2%;
+	margin-right:12.5%;
+	margin-top:100px;
+
+}
+
+.uppercase
+{
+	
+	text-transform:uppercase;
+
+}
+
+hr
+{
+	
+	opacity:0.25;
+
+}
